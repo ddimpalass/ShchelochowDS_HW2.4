@@ -7,23 +7,34 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1899EA3825839D22008B75D8 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1899EA3725839D22008B75D8 /* MainViewController.swift */; };
 		18CB9EEA2583509700ADD748 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18CB9EE92583509700ADD748 /* AppDelegate.swift */; };
 		18CB9EEC2583509700ADD748 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18CB9EEB2583509700ADD748 /* SceneDelegate.swift */; };
-		18CB9EEE2583509700ADD748 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18CB9EED2583509700ADD748 /* ViewController.swift */; };
+		18CB9EEE2583509700ADD748 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18CB9EED2583509700ADD748 /* LoginViewController.swift */; };
 		18CB9EF12583509700ADD748 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18CB9EEF2583509700ADD748 /* Main.storyboard */; };
 		18CB9EF32583509700ADD748 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18CB9EF22583509700ADD748 /* Assets.xcassets */; };
 		18CB9EF62583509700ADD748 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18CB9EF42583509700ADD748 /* LaunchScreen.storyboard */; };
+		2F56D8FD25850428002AF319 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F56D8FC25850428002AF319 /* User.swift */; };
+		2F6100C5258551A500A64F2E /* RegistrationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F6100C4258551A500A64F2E /* RegistrationViewController.swift */; };
+		2FDC993D2584FA5A00F69EAE /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FDC993C2584FA5A00F69EAE /* SecondViewController.swift */; };
+		2FDC99402584FA6900F69EAE /* LastViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FDC993F2584FA6900F69EAE /* LastViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1899EA3725839D22008B75D8 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		18CB9EE62583509600ADD748 /* ShchelochowDS_HW2.4.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShchelochowDS_HW2.4.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18CB9EE92583509700ADD748 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		18CB9EEB2583509700ADD748 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		18CB9EED2583509700ADD748 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		18CB9EED2583509700ADD748 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		18CB9EF02583509700ADD748 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		18CB9EF22583509700ADD748 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		18CB9EF52583509700ADD748 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		18CB9EF72583509700ADD748 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2F56D8FC25850428002AF319 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		2F56D8FF25853059002AF319 /* ShchelochowDS_HW2.4.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ShchelochowDS_HW2.4.entitlements; sourceTree = "<group>"; };
+		2F6100C4258551A500A64F2E /* RegistrationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationViewController.swift; sourceTree = "<group>"; };
+		2FDC993C2584FA5A00F69EAE /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		2FDC993F2584FA6900F69EAE /* LastViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LastViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +48,53 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1899EA2925838FC5008B75D8 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				18CB9EEF2583509700ADD748 /* Main.storyboard */,
+				18CB9EF42583509700ADD748 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		1899EA2A25839005008B75D8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				18CB9EE92583509700ADD748 /* AppDelegate.swift */,
+				18CB9EEB2583509700ADD748 /* SceneDelegate.swift */,
+				18CB9EF72583509700ADD748 /* Info.plist */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1899EA2B25839032008B75D8 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				18CB9EED2583509700ADD748 /* LoginViewController.swift */,
+				2F6100C4258551A500A64F2E /* RegistrationViewController.swift */,
+				1899EA3725839D22008B75D8 /* MainViewController.swift */,
+				2FDC993C2584FA5A00F69EAE /* SecondViewController.swift */,
+				2FDC993F2584FA6900F69EAE /* LastViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		1899EA2E25839060008B75D8 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				2F56D8FC25850428002AF319 /* User.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		1899EA2F2583907A008B75D8 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				18CB9EF22583509700ADD748 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 		18CB9EDD2583509600ADD748 = {
 			isa = PBXGroup;
 			children = (
@@ -56,13 +114,12 @@
 		18CB9EE82583509600ADD748 /* ShchelochowDS_HW2.4 */ = {
 			isa = PBXGroup;
 			children = (
-				18CB9EE92583509700ADD748 /* AppDelegate.swift */,
-				18CB9EEB2583509700ADD748 /* SceneDelegate.swift */,
-				18CB9EED2583509700ADD748 /* ViewController.swift */,
-				18CB9EEF2583509700ADD748 /* Main.storyboard */,
-				18CB9EF22583509700ADD748 /* Assets.xcassets */,
-				18CB9EF42583509700ADD748 /* LaunchScreen.storyboard */,
-				18CB9EF72583509700ADD748 /* Info.plist */,
+				2F56D8FF25853059002AF319 /* ShchelochowDS_HW2.4.entitlements */,
+				1899EA2F2583907A008B75D8 /* Resources */,
+				1899EA2E25839060008B75D8 /* Models */,
+				1899EA2A25839005008B75D8 /* Supporting Files */,
+				1899EA2B25839032008B75D8 /* ViewControllers */,
+				1899EA2925838FC5008B75D8 /* Storyboards */,
 			);
 			path = ShchelochowDS_HW2.4;
 			sourceTree = "<group>";
@@ -137,9 +194,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				18CB9EEE2583509700ADD748 /* ViewController.swift in Sources */,
+				18CB9EEE2583509700ADD748 /* LoginViewController.swift in Sources */,
 				18CB9EEA2583509700ADD748 /* AppDelegate.swift in Sources */,
+				2F6100C5258551A500A64F2E /* RegistrationViewController.swift in Sources */,
 				18CB9EEC2583509700ADD748 /* SceneDelegate.swift in Sources */,
+				2FDC993D2584FA5A00F69EAE /* SecondViewController.swift in Sources */,
+				2FDC99402584FA6900F69EAE /* LastViewController.swift in Sources */,
+				1899EA3825839D22008B75D8 /* MainViewController.swift in Sources */,
+				2F56D8FD25850428002AF319 /* User.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,9 +348,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = ShchelochowDS_HW2.4/ShchelochowDS_HW2.4.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = KFL2ZFQWR4;
-				INFOPLIST_FILE = ShchelochowDS_HW2.4/Info.plist;
+				INFOPLIST_FILE = "ShchelochowDS_HW2.4/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -305,9 +368,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = ShchelochowDS_HW2.4/ShchelochowDS_HW2.4.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = KFL2ZFQWR4;
-				INFOPLIST_FILE = ShchelochowDS_HW2.4/Info.plist;
+				INFOPLIST_FILE = "ShchelochowDS_HW2.4/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
